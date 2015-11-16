@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		38350EE01BF5B8AD0002984B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350EDF1BF5B8AD0002984B /* main.m */; };
 		38350EE31BF5B8AD0002984B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350EE21BF5B8AD0002984B /* AppDelegate.m */; };
-		38350EE61BF5B8AD0002984B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350EE51BF5B8AD0002984B /* ViewController.m */; };
 		38350EE91BF5B8AD0002984B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38350EE71BF5B8AD0002984B /* Main.storyboard */; };
 		38350EEB1BF5B8AD0002984B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38350EEA1BF5B8AD0002984B /* Assets.xcassets */; };
 		38350EEE1BF5B8AD0002984B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38350EEC1BF5B8AD0002984B /* LaunchScreen.storyboard */; };
 		38350EF91BF5B8AD0002984B /* HGNavgatorSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350EF81BF5B8AD0002984B /* HGNavgatorSampleTests.m */; };
 		38350F041BF5B8AD0002984B /* HGNavgatorSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F031BF5B8AD0002984B /* HGNavgatorSampleUITests.m */; };
+		38350F141BF5B9AA0002984B /* HGURLNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F131BF5B9AA0002984B /* HGURLNavigator.m */; };
+		38350F171BF5B9E20002984B /* HGURLNavigatorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F161BF5B9E20002984B /* HGURLNavigatorAction.m */; };
+		38350F1A1BF5BA0A0002984B /* HGURLNavigatorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F191BF5BA0A0002984B /* HGURLNavigatorMap.m */; };
+		38350F1E1BF5BE7C0002984B /* HGTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F1D1BF5BE7C0002984B /* HGTestVC.m */; };
+		38350F221BF5C1C70002984B /* HGNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F211BF5C1C70002984B /* HGNavigation.m */; };
+		38350F251BF5C2780002984B /* HGBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F241BF5C2780002984B /* HGBaseVC.m */; };
+		38350F281BF5C2B30002984B /* HGFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 38350F271BF5C2B30002984B /* HGFirstVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		38350EDF1BF5B8AD0002984B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38350EE11BF5B8AD0002984B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38350EE21BF5B8AD0002984B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38350EE41BF5B8AD0002984B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38350EE51BF5B8AD0002984B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		38350EE81BF5B8AD0002984B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38350EEA1BF5B8AD0002984B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38350EED1BF5B8AD0002984B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,22 @@
 		38350EFF1BF5B8AD0002984B /* HGNavgatorSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGNavgatorSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38350F031BF5B8AD0002984B /* HGNavgatorSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGNavgatorSampleUITests.m; sourceTree = "<group>"; };
 		38350F051BF5B8AD0002984B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38350F121BF5B9AA0002984B /* HGURLNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGURLNavigator.h; sourceTree = "<group>"; };
+		38350F131BF5B9AA0002984B /* HGURLNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGURLNavigator.m; sourceTree = "<group>"; };
+		38350F151BF5B9E20002984B /* HGURLNavigatorAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGURLNavigatorAction.h; sourceTree = "<group>"; };
+		38350F161BF5B9E20002984B /* HGURLNavigatorAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGURLNavigatorAction.m; sourceTree = "<group>"; };
+		38350F181BF5BA0A0002984B /* HGURLNavigatorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGURLNavigatorMap.h; sourceTree = "<group>"; };
+		38350F191BF5BA0A0002984B /* HGURLNavigatorMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGURLNavigatorMap.m; sourceTree = "<group>"; };
+		38350F1B1BF5BDD40002984B /* HGURLNavigatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGURLNavigatorProtocol.h; sourceTree = "<group>"; };
+		38350F1C1BF5BE7C0002984B /* HGTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGTestVC.h; sourceTree = "<group>"; };
+		38350F1D1BF5BE7C0002984B /* HGTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGTestVC.m; sourceTree = "<group>"; };
+		38350F1F1BF5BE9B0002984B /* HGNavigatorURLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGNavigatorURLDefine.h; sourceTree = "<group>"; };
+		38350F201BF5C1C70002984B /* HGNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGNavigation.h; sourceTree = "<group>"; };
+		38350F211BF5C1C70002984B /* HGNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGNavigation.m; sourceTree = "<group>"; };
+		38350F231BF5C2780002984B /* HGBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGBaseVC.h; sourceTree = "<group>"; };
+		38350F241BF5C2780002984B /* HGBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGBaseVC.m; sourceTree = "<group>"; };
+		38350F261BF5C2B30002984B /* HGFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGFirstVC.h; sourceTree = "<group>"; };
+		38350F271BF5C2B30002984B /* HGFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGFirstVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +123,15 @@
 			children = (
 				38350EE11BF5B8AD0002984B /* AppDelegate.h */,
 				38350EE21BF5B8AD0002984B /* AppDelegate.m */,
-				38350EE41BF5B8AD0002984B /* ViewController.h */,
-				38350EE51BF5B8AD0002984B /* ViewController.m */,
 				38350EE71BF5B8AD0002984B /* Main.storyboard */,
+				38350F231BF5C2780002984B /* HGBaseVC.h */,
+				38350F241BF5C2780002984B /* HGBaseVC.m */,
+				38350F261BF5C2B30002984B /* HGFirstVC.h */,
+				38350F271BF5C2B30002984B /* HGFirstVC.m */,
+				38350F1C1BF5BE7C0002984B /* HGTestVC.h */,
+				38350F1D1BF5BE7C0002984B /* HGTestVC.m */,
+				38350F1F1BF5BE9B0002984B /* HGNavigatorURLDefine.h */,
+				38350F111BF5B9980002984B /* HGURLNavigator */,
 				38350EEA1BF5B8AD0002984B /* Assets.xcassets */,
 				38350EEC1BF5B8AD0002984B /* LaunchScreen.storyboard */,
 				38350EEF1BF5B8AD0002984B /* Info.plist */,
@@ -138,6 +164,22 @@
 				38350F051BF5B8AD0002984B /* Info.plist */,
 			);
 			path = HGNavgatorSampleUITests;
+			sourceTree = "<group>";
+		};
+		38350F111BF5B9980002984B /* HGURLNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				38350F201BF5C1C70002984B /* HGNavigation.h */,
+				38350F211BF5C1C70002984B /* HGNavigation.m */,
+				38350F1B1BF5BDD40002984B /* HGURLNavigatorProtocol.h */,
+				38350F121BF5B9AA0002984B /* HGURLNavigator.h */,
+				38350F131BF5B9AA0002984B /* HGURLNavigator.m */,
+				38350F151BF5B9E20002984B /* HGURLNavigatorAction.h */,
+				38350F161BF5B9E20002984B /* HGURLNavigatorAction.m */,
+				38350F181BF5BA0A0002984B /* HGURLNavigatorMap.h */,
+				38350F191BF5BA0A0002984B /* HGURLNavigatorMap.m */,
+			);
+			path = HGURLNavigator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38350EE61BF5B8AD0002984B /* ViewController.m in Sources */,
+				38350F251BF5C2780002984B /* HGBaseVC.m in Sources */,
+				38350F141BF5B9AA0002984B /* HGURLNavigator.m in Sources */,
+				38350F171BF5B9E20002984B /* HGURLNavigatorAction.m in Sources */,
+				38350F281BF5C2B30002984B /* HGFirstVC.m in Sources */,
+				38350F1A1BF5BA0A0002984B /* HGURLNavigatorMap.m in Sources */,
+				38350F1E1BF5BE7C0002984B /* HGTestVC.m in Sources */,
+				38350F221BF5C1C70002984B /* HGNavigation.m in Sources */,
 				38350EE31BF5B8AD0002984B /* AppDelegate.m in Sources */,
 				38350EE01BF5B8AD0002984B /* main.m in Sources */,
 			);

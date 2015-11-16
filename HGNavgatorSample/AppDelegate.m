@@ -7,16 +7,31 @@
 //
 
 #import "AppDelegate.h"
+#import "HGNavigation.h"
+#import "HGFirstVC.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    UINavigationController *_rootNavigationController;
+}
 
 @end
 
 @implementation AppDelegate
 
+- (UINavigationController *)visibleNavigationController {
+    return _rootNavigationController;
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //配置map关系
+    [HGNavigation setup];
+    
     // Override point for customization after application launch.
+    HGFirstVC *rootVC = [[HGFirstVC alloc] init];
+    _rootNavigationController = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = _rootNavigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

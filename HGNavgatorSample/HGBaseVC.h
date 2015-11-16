@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HGBaseVC.h
 //  HGNavgatorSample
 //
 //  Created by XiaoDou on 15/11/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HGBaseVC : UIViewController
 
 @end
-
